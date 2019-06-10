@@ -1,6 +1,6 @@
 # Tradeprint Node.js SDK
 
-TODO
+[![CircleCI](https://circleci.com/gh/Tradeprint/tradeprint-node-sdk.svg?style=svg)](https://circleci.com/gh/Tradeprint/tradeprint-node-sdk)
 
 ## Introduction
 
