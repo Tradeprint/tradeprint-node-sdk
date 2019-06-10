@@ -1,0 +1,40 @@
+{
+    "name": "tradeprint-node-sdk",
+    "version": "1.0.5",
+    "description": "Tradeprint API Node.js SDK",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint --color .",
+        "unit-tests": "mocha test --reporter mocha-multi-reporters --reporter-options configFile=./test/config.json",
+        "nyc-unit-tests": "nyc --reporter=html npm run unit-tests",
+        "coverage": "nyc report && nyc report --reporter=text-summary",
+        "test": "npm run lint && npm run nyc-unit-tests && npm run coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tradeprint/tradeprint-node-sdk.git"
+    },
+    "keywords": [],
+    "author": "Tradeprint API <api@tradeprint.io>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Tradeprint/tradeprint-node-sdk/issues"
+    },
+    "homepage": "https://github.com/Tradeprint/tradeprint-node-sdk#readme",
+    "dependencies": {
+        "request": "^2.88.0",
+        "request-promise-any": "^1.0.7"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "chai-as-promised": "^7.1.1",
+        "eslint": "^5.16.0",
+        "mocha": "^6.1.4",
+        "mocha-junit-reporter": "^1.22.0",
+        "mocha-multi-reporters": "^1.1.7",
+        "nyc": "^14.1.1",
+        "sinon": "^7.3.2",
+        "sinon-chai": "^3.3.0",
+        "sinon-stub-promise": "^4.0.0"
+    }
+}

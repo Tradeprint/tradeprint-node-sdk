@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:stretch
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm run lint
+      - run: npm run nyc-unit-tests
+      - run: npm run coverage
+      - store_artifacts:
+          path: coverage
+          prefix: coverage
+      - store_artifacts:
+          path: test-reports
+      - store_test_results:
+          path: test-reports

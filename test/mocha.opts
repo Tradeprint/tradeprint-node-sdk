@@ -1,0 +1,4 @@
+# mocha.opts
+-c
+-t 10000
+--recursive
