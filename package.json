@@ -1,6 +1,6 @@
 {
     "name": "tradeprint-node-sdk",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Tradeprint API Node.js SDK",
     "main": "index.js",
     "scripts": {
@@ -20,7 +20,7 @@
     "bugs": {
         "url": "https://github.com/Tradeprint/tradeprint-node-sdk/issues"
     },
-    "homepage": "https://github.com/Tradeprint/tradeprint-node-sdk#readme",
+    "homepage": "https://www.npmjs.com/package/tradeprint-node-sdk",
     "dependencies": {
         "request": "^2.88.0",
         "request-promise-any": "^1.0.7"
