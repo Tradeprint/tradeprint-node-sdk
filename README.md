@@ -4,17 +4,24 @@
 
 ## Introduction
 
-Node.js SDK allows you to easily add your print on demand functionality to your app or website within minutes! Print Postcards, Business Cards, Posters, Stickers on a roll, T-Shirts, etc. Our Node.js SDK industry standardised documentation and instructions are easy to follow and would take a software engineer no longer than a few days to complete the full integration.
+Node.js SDK allows you to easily add your print on demand functionality to your app or website within minutes!
+Print Postcards, Business Cards, Posters, Stickers on a roll, T-Shirts, etc.
+Our Node.js SDK industry standardised documentation and instructions are easy to follow and would take a software engineer no longer than a few days to complete the full integration.
 
-Node.js empowers organisations to create quick, robust network applications that can tackle parallel connections with increased throughput. Our Sandbox print API environment allows you to interact with the API endpoints through the Node.js SDK.
+Node.js empowers organisations to create quick, robust network applications that can tackle parallel connections with increased throughput.
+Our Sandbox print API environment allows you to interact with the API endpoints through the Node.js SDK.
 
-As the API is created by our in-house team, we provide support to ensure it is set up and running smoothly. Once up and running, we don’t anticipate a need for further maintenance from our side. However, we do expect some work to maintain your product catalogue. This work includes adding, removing and editing products and can completed manually by your team, or parts can be automated.
+As the API is created by our in-house team, we provide support to ensure it is set up and running smoothly.
+Once up and running, we don’t anticipate a need for further maintenance from our side. However, we do expect some work to maintain your product catalogue.
+This work includes adding, removing and editing products and can completed manually by your team, or parts can be automated.
+
+Tradeprint API Documentation: https://docs.sandbox.tradeprint.io.
 
 ## Requirements
 
-The recommended environment for using the SDK is Node.js 8.x.x and above (https://nodejs.org/).
+The recommended environment for using the SDK is *Node.js 8.x.x* and above (https://nodejs.org/).
  
-Class and promises are used extensively so ECMAScript 2015 is the absolute minimum to use the package. 
+Classes and promises are used extensively so *ECMAScript 2015* is the absolute minimum to use the package. 
 
 ## Installation
 
@@ -60,11 +67,11 @@ SDK.setCredentials('johnSmith', 's3crEtP4s5');
 
 ### Tradeprint API
 
-API Documentation: https://docs.sandbox.tradeprint.io
-
 The SDK methods mirror the publicly available Tradeprint API endpoints and they allow the developer to post payloads to them in a convenient manner.
 
 With a valid set of Sandbox or Production credentials, you can test the API in Postman and then use the same credentials to run your calls through the Node.js SDK.
+
+View the API documentation at https://docs.sandbox.tradeprint.io.
 
 ### Sandbox and Production
 
