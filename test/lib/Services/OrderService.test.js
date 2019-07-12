@@ -9,6 +9,7 @@ const ValidateOrderRequest = require('../../../lib/Requests/Orders/ValidateOrder
 const UploadReplaceArtwokRequest = require('../../../lib/Requests/Orders/UploadReplaceArtwokRequest');
 const GetOrderStatusByIdRequest = require('../../../lib/Requests/Orders/GetOrderStatusByIdRequest');
 const FetchOrdersByReferenceRequest = require('../../../lib/Requests/Orders/FetchOrdersByReferenceRequest');
+const RetryPaymentRequest = require('../../../lib/Requests/Orders/RetryPaymentRequest');
 const OrderService = require('../../../lib/Services/OrderService');
 
 const subjectInstance = new OrderService();
@@ -38,6 +39,10 @@ describe('When I call the OrderService request creation methods', function() {
         {
             method: (a, b) => subjectInstance.uploadReplaceArtworkRequest(a, b),
             targetClass: UploadReplaceArtwokRequest
+        },
+        {
+            method: (a, b) => subjectInstance.retryPaymentRequest(a),
+            targetClass: RetryPaymentRequest
         }
     ];
 
