@@ -137,6 +137,7 @@ The samples provided below reflect the calls available in the Tradeprint API (ht
 * [Get Order Status by ID](orders/get-order-status-by-id.js)
 * [Fetch Orders by References](orders/fetch-orders-by-reference.js)
 * [Cancel an Order Item](orders/cancel-order-item.js)
+* [Retry Payment](orders/retry-payment.js)
 
 ### Products
 
