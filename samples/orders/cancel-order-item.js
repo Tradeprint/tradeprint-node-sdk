@@ -1,7 +1,6 @@
-/*
+/**
  * Tradeprint API - Cancel an Order Item
  * https://docs.sandbox.tradeprint.io/?version=latest#4dc388f6-26b4-4141-b71e-0885c3532dd0
- *
  */
 const SDK = require('tradeprint-node-sdk');
 

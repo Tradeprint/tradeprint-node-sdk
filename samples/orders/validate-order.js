@@ -1,7 +1,6 @@
-/*
+/**
  * Tradeprint API - Validate Order
  * https://docs.sandbox.tradeprint.io/?version=latest#b1822b88-b0f1-4fb2-b94d-de717a2971b7
- *
  */
 const SDK = require('tradeprint-node-sdk');
 

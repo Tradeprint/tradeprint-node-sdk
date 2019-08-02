@@ -1,5 +1,6 @@
 /* eslint-disable prefer-arrow-callback */
 
+const moment = require('moment');
 const chai = require('chai');
 const should = chai.should();
 
@@ -37,5 +38,20 @@ describe('When I set the properties of the price list product request', function
 
         should.exist(subject.payload.format);
         subject.payload.format.should.equal('json');
+    });
+
+    it('Then the from date is set as a formatted string', function() {
+        const specifidDate = new Date('August 19, 1975 23:15:30');
+        subject.setFromDate(specifidDate);
+
+        should.exist(subject.payload.fromDate);
+
+        const expectedDateString = moment('1975-08-19').format('DD/MM/YYYY');
+
+        subject.payload.fromDate.should.equal(expectedDateString);
+    });
+
+    it('Then the from date is not set due to incorrect value passed', function() {
+        (() => subject.setFromDate('01/01/2015')).should.throw('The "fromDate" parameter must be a Date type');
     });
 });

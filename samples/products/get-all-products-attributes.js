@@ -1,7 +1,6 @@
-/*
+/**
  * Tradeprint API - Get All Products Attributes
  * https://docs.sandbox.tradeprint.io/?version=latest#6ebfb248-8ef8-467a-9484-83b40114b26b
- *
  */
 const SDK = require('tradeprint-node-sdk');
 

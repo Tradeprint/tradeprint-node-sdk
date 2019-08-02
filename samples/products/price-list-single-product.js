@@ -1,7 +1,6 @@
-/*
+/**
  * Tradeprint API - Request Price List for Single Product
  * https://docs.sandbox.tradeprint.io/?version=latest#80cd6377-af47-4ace-8e26-cff1884b1acf
- *
  */
 const SDK = require('tradeprint-node-sdk');
 
@@ -18,6 +17,7 @@ const productService = new SDK.ProductService();
             .setEmailAddress('EMAIL_ADDRESS')
             .setMarkup(10)
             .setFormatCsv()
+            .setFromDate(new Date('August 19, 1975 23:15:30'))
             .execute();
 
         console.log(response);

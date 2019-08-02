@@ -1,7 +1,6 @@
-/*
+/**
  * Tradeprint API - Submit New Order (outlined for clarity)
  * https://docs.sandbox.tradeprint.io/?version=latest#7df5f1d2-2e24-43fd-894a-a2c3e306e7cb
- *
  */
 const SDK = require('tradeprint-node-sdk');
 
