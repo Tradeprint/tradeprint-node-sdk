@@ -1,6 +1,6 @@
 {
     "name": "tradeprint-node-sdk",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Tradeprint API Node.js SDK",
     "main": "index.js",
     "scripts": {
@@ -22,6 +22,7 @@
     },
     "homepage": "https://www.npmjs.com/package/tradeprint-node-sdk",
     "dependencies": {
+        "moment": "^2.24.0",
         "request": "^2.88.0",
         "request-promise-any": "^1.0.7"
     },
@@ -29,8 +30,8 @@
         "chai": "^4.2.0",
         "chai-as-promised": "^7.1.1",
         "eslint": "^5.16.0",
-        "mocha": "^6.1.4",
-        "mocha-junit-reporter": "^1.23.0",
+        "mocha": "^6.2.0",
+        "mocha-junit-reporter": "^1.23.1",
         "mocha-multi-reporters": "^1.1.7",
         "nyc": "^14.1.1",
         "sinon": "^7.3.2",

@@ -1,9 +1,8 @@
-/*
+/**
  * Tradeprint API - Get Expected Delivery Date
  * https://docs.sandbox.tradeprint.io/?version=latest#1b94aa3e-c028-47b0-8502-04035a1f9490
  *
  * Promise-based function execution.
- *
  */
 const SDK = require('tradeprint-node-sdk');
 

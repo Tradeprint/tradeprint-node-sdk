@@ -1,7 +1,6 @@
-/*
+/**
  * Tradeprint API - Fetch Orders by References
  * https://docs.sandbox.tradeprint.io/?version=latest#06cc541c-cd0e-48dc-864a-3d32c6cf173f
- *
  */
 const SDK = require('tradeprint-node-sdk');
 

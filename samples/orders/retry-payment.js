@@ -1,7 +1,6 @@
-/*
+/**
  * Tradeprint API - Retry Payment
  * https://docs.sandbox.tradeprint.io/?version=latest#a4c34bda-065c-4d94-8125-db51304d7b7f7
- *
  */
 const SDK = require('tradeprint-node-sdk');
 

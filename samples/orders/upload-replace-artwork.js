@@ -1,7 +1,6 @@
-/*
+/**
  * Tradeprint API - Upload or Replace Artwork
  * https://docs.sandbox.tradeprint.io/?version=latest#03d1f33a-53d2-43f0-b45a-8b44f600a270
- *
  */
 const SDK = require('tradeprint-node-sdk');
 
